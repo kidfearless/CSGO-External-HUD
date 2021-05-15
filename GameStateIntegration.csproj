@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SharpDX" Version="4.2.0" />
+    <PackageReference Include="SharpDX.Direct2D1" Version="4.2.0" />
+    <PackageReference Include="SharpDX.DXGI" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="D:\pe\Downloads\CSGSI-master\CSGSI-master\CSGSI\CSGSI.csproj" />
+    <ProjectReference Include="D:\pe\Downloads\GameOverlay.Net-master\GameOverlay.Net-master\source\GameOverlay\GameOverlay.csproj" />
+  </ItemGroup>
+
+</Project>
